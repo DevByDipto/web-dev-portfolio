@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* common style */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* shared style */
+.discription {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* navbar part */
+header {
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    background-color: #FFF8F3;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+header nav .logo span {
+    color: #FD6E0A;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
+/* banner part */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 230px;
+    padding-right: 38px;
+}
+
+.banner .banner-container {
+    width: 585px;
+}
+
+.banner .intro {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner .title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+
+/* main part  */
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* about part */
+
+.about {
+    background-color: #FFF8F3;
+    margin: 130px 0;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container {
+    width: 827px;
+    background-color: #FFFFFF;
+    margin: 130px 150px;
+    border: 1px solid black;
+}
+
+.about .discription {
+    width: 827px;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.about .information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .information .information-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 300;
+    text-align: center;
+}
+
+.about .information .information-discription {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+/* skills part */
+.skills {
+    margin-bottom: 130px;
+}
+
+.skills .discription {
+    width: 804px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.skills .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skills .cards .card {
+    box-shadow: 0 6px 50px 0 rgb(0, 0, 0, 0.06);
+    width: 265px;
+    /* height: 377px; */
+    padding: 30px;
+}
+
+.skills .cards .card img {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.skills .cards .card-title {
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.skills .cards .card-discription {
+    font-size: 16px;
+    color: #757575;
+    width: 201px;
+    padding-bottom: 30px;
+}
+
+/* resume part */
+.resume .resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    padding-bottom: 130px;
+}
+.resume hr{
+    width: 558px;
+}
+.resume  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.resume  h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    padding: 30px 0 10px;
+}
+
+.resume  h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.resume  h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.resume  .discription {
+    font-size: 16px;
+    color: #757575;
+    width: 460px;
+}
+
+.resume .resume-btn{
+    text-align: center;
+    padding: 50px 0 113px;
+}
+
+/* footer */
+footer{
+    background-color: #FFF8F3;
+}
+
+footer .container{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+padding-top: 130px;
+padding-bottom: 130px;
+}
+
+footer .discription{
+    width: 562px;
+}
+footer .title{
+    text-align: start;
+}
+footer .connect ul{
+    display: flex;
+    gap: 20px;
+}
+footer .message{
+    width: 50%;
+}
+footer .message input[type="text"],input[type="email"]{
+    height: 64px;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 18px 0 18px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+footer textarea{
+    font-size:16px ;
+    color: #757575;
+    padding: 18px 0 18px 30px;
+    border: none;
+}
+
+footer button{
+    margin-top: 30px;
+}
